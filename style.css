@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(#FAACA8, #DDD6F3);
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  /* line-height: 1.4rem; */
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  margin-top: 2rem;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  min-height: 300px;
+  width: 30%;
+  background-image: url('./imgs/card1.jpg');
+}
+
+.card2 {
+  min-height: 300px;
+  width: 30%;
+  background-image: url('./imgs/card2.jpg');
+}
+
+.card3 {
+  min-height: 300px;
+  width: 30%;
+  background-image: url('./imgs/card3.jpg');
+}
+
+.heroBox1 {
+  flex: 2;
+  margin-right: 7rem;
+}
+
+.heroBox2 {
+  flex: 1;
+}
+
+.logo {
+  flex: 2;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+.book {
+  background-color: white;
+  border: none;
+  color: black;
+  height: 1.5rem;
+  margin-top: 1rem;
+  font-size: medium;
+}
+
+.cards img {
+  height: 90px;
+  width: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+.cards p {
+  margin: 20px 20px 30px 30px;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 700;
+  margin: 20px 10px 0px 20px;
+}
+
+.testimonials {
+  margin-top: 2rem;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
