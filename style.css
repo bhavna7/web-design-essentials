@@ -83,13 +83,16 @@ p {
   line-height: 1.4rem;
 }
 
-.book {
+.book-button {
   background-color: white;
-  border: none;
-  color: black;
-  height: 1.5rem;
-  margin-top: 1rem;
+  color: #FAACA8;
   font-size: medium;
+  width: 20%;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 2.5px;
+  display: inline-block;
 }
 
 .cards img {
@@ -116,4 +119,9 @@ h2 {
   min-height: 300px;
   display: flex;
   justify-content: space-between;
+}
+
+.cards a {
+  color: white;
+  text-decoration: none;
 }
